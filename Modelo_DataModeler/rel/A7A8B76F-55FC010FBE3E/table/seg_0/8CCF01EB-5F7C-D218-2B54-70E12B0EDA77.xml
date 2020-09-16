@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8CCF01EB-5F7C-D218-2B54-70E12B0EDA77" name="Equipo">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-09-16 03:25:13 UTC</createdTime>
+<ownerDesignName>Modelo_DataModeler</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_equipo" id="28FCF6F6-1A58-90AC-7748-CA690551A627">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-09-16 03:25:51 UTC</createdTime>
+<ownerDesignName>Modelo_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_equipo" id="E28AAF3E-EC99-838E-EEF6-57391FCA6E10">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-09-16 03:25:51 UTC</createdTime>
+<ownerDesignName>Modelo_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E8ABE434-D5DD-33F4-0435-11FC5138E107" name="Equipo_PK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-09-16 03:25:51 UTC</createdTime>
+<ownerDesignName>Modelo_DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28FCF6F6-1A58-90AC-7748-CA690551A627"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3DF4B92-C86A-1779-B35F-0D5050353943" name="Jornada">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-09-16 03:28:04 UTC</createdTime>
+<ownerDesignName>Modelo_DataModeler</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="no_jornada" id="4CA68D4A-6DDB-70F3-7F50-88CCF1BB9C46">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-09-16 03:28:40 UTC</createdTime>
+<ownerDesignName>Modelo_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="anio_inicio_temporada" id="69C4EAC7-90E1-C121-F9C9-B5E0E4C97E1E">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-09-16 03:28:40 UTC</createdTime>
+<ownerDesignName>Modelo_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E39DC7A-7F28-DDFC-A386-DCF6976C86BF" referredColumn="82434CE0-24C2-3BD9-6BDA-7197D0455FA9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7277BE87-49C1-8B6C-C3BE-13FD8F876ADD" name="Jornada_PK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-09-16 03:30:07 UTC</createdTime>
+<ownerDesignName>Modelo_DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CA68D4A-6DDB-70F3-7F50-88CCF1BB9C46"/>
+<colUsage columnID="69C4EAC7-90E1-C121-F9C9-B5E0E4C97E1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03CFD7DD-0205-F64E-A762-2295CB456441" name="Jornada_Temporada_FK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-09-16 03:40:58 UTC</createdTime>
+<ownerDesignName>Modelo_DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69C4EAC7-90E1-C121-F9C9-B5E0E4C97E1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

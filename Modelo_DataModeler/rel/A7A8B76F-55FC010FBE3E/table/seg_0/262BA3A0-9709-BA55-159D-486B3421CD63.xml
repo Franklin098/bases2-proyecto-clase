@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="262BA3A0-9709-BA55-159D-486B3421CD63" name="Temporada">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-09-16 03:26:59 UTC</createdTime>
+<ownerDesignName>Modelo_DataModeler</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="anio_inicio" id="82434CE0-24C2-3BD9-6BDA-7197D0455FA9">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-09-16 03:27:50 UTC</createdTime>
+<ownerDesignName>Modelo_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="anio_fin" id="D0347C39-3090-B502-80FA-3784069FD4D6">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-09-16 03:27:50 UTC</createdTime>
+<ownerDesignName>Modelo_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="54A2E4F7-C1D0-BC5A-D571-4128F7D8893C" name="Temporada_PK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-09-16 03:27:50 UTC</createdTime>
+<ownerDesignName>Modelo_DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82434CE0-24C2-3BD9-6BDA-7197D0455FA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

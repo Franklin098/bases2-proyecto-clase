@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8E39DC7A-7F28-DDFC-A386-DCF6976C86BF" containerWithKeyObject="A3DF4B92-C86A-1779-B35F-0D5050353943" localFKIndex="03CFD7DD-0205-F64E-A762-2295CB456441" name="Jornada_Temporada_FK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-09-16 03:40:58 UTC</createdTime>
+<ownerDesignName>Modelo_DataModeler</ownerDesignName>
+<referredTableLongName>Temporada</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>262BA3A0-9709-BA55-159D-486B3421CD63</referredTableID>
+<keyObject>54A2E4F7-C1D0-BC5A-D571-4128F7D8893C</keyObject>
+<referredKeyID>54A2E4F7-C1D0-BC5A-D571-4128F7D8893C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>anio_inicio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

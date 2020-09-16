@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="697DCC18-0C0F-FB6B-EA58-D558AE0455AC" name="Partido">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-09-16 03:34:17 UTC</createdTime>
+<ownerDesignName>Modelo_DataModeler</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_equipo_local" id="538F4CB1-9EA5-FA03-FCA2-329365A560DA">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-09-16 03:36:20 UTC</createdTime>
+<ownerDesignName>Modelo_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0976D5DF-BC09-FAAB-C040-B3E90B532975" referredColumn="28FCF6F6-1A58-90AC-7748-CA690551A627"/>
+</associations>
+</Column>
+<Column name="id_equipo_visitante" id="3F03B7A3-8397-0ACC-E8B6-C0D4EE0E2F56">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-09-16 03:36:20 UTC</createdTime>
+<ownerDesignName>Modelo_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C96DF1D-D66F-BFFB-B4BE-D1A48AD5D5C9" referredColumn="28FCF6F6-1A58-90AC-7748-CA690551A627"/>
+</associations>
+</Column>
+<Column name="no_jornada" id="227AB4CD-7B53-C817-92AB-439C4C793248">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-09-16 03:36:20 UTC</createdTime>
+<ownerDesignName>Modelo_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86665135-2B58-47FE-4B2C-4A41A459F565" referredColumn="4CA68D4A-6DDB-70F3-7F50-88CCF1BB9C46"/>
+</associations>
+</Column>
+<Column name="anio_inicio_temporada" id="420794C8-80F5-8DAF-E7FC-480D4AFAD2D2">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-09-16 03:41:36 UTC</createdTime>
+<ownerDesignName>Modelo_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86665135-2B58-47FE-4B2C-4A41A459F565" referredColumn="69C4EAC7-90E1-C121-F9C9-B5E0E4C97E1E"/>
+</associations>
+</Column>
+<Column name="goles_equipo_local" id="97B4E5CC-425C-A638-96B7-F5C1A48E4A71">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-09-16 03:46:59 UTC</createdTime>
+<ownerDesignName>Modelo_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="goles_equipo_visitante" id="E9FEE27F-DB47-6EB8-F9E0-63AA2DB6E5A7">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-09-16 03:46:59 UTC</createdTime>
+<ownerDesignName>Modelo_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9E76115-BDB8-A154-BAAF-E8A80333B3BA" name="Partido_PK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-09-16 03:36:20 UTC</createdTime>
+<ownerDesignName>Modelo_DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="538F4CB1-9EA5-FA03-FCA2-329365A560DA"/>
+<colUsage columnID="3F03B7A3-8397-0ACC-E8B6-C0D4EE0E2F56"/>
+<colUsage columnID="227AB4CD-7B53-C817-92AB-439C4C793248"/>
+<colUsage columnID="420794C8-80F5-8DAF-E7FC-480D4AFAD2D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60F5CF71-C763-7BFE-692C-BA89503EEA84" name="Partido_Jornada_FK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-09-16 03:41:47 UTC</createdTime>
+<ownerDesignName>Modelo_DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="227AB4CD-7B53-C817-92AB-439C4C793248"/>
+<colUsage columnID="420794C8-80F5-8DAF-E7FC-480D4AFAD2D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A38C48A-71E8-3F0A-68A1-46BDEFF94391" name="Partido_Equipo_FK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-09-16 03:44:26 UTC</createdTime>
+<ownerDesignName>Modelo_DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="538F4CB1-9EA5-FA03-FCA2-329365A560DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2422A2B-8D3B-5BF4-0F55-48164C2837C8" name="Partido_Equipo_FKv2">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-09-16 03:44:37 UTC</createdTime>
+<ownerDesignName>Modelo_DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F03B7A3-8397-0ACC-E8B6-C0D4EE0E2F56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
